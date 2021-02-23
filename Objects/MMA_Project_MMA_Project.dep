@@ -1,0 +1,120 @@
+Dependencies for Project 'MMA_Project', Target 'MMA_Project': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (.\src\main.c)(0x5FF4AE23)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc-I./RTE/Device/MKL25Z128xxx4-I./RTE/_MMA_Project-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_-o ./objects/main.o -MD)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BD06A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED65234)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D093C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0968)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5F8F3CB4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED65234)
+I (inc\PeriodicTimer.h)(0x5F8F3CB4)
+I (inc\LED.h)(0x5F8F3CB4)
+I (inc\UARTCom.h)(0x5F8F3CB4)
+I (inc\i2c.h)(0x5F8F3CB4)
+I (inc\mma8451.h)(0x5F8F3CB4)
+I (inc\Recorder.h)(0x5F8F3CB4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5ED65234)
+F (.\src\i2c.c)(0x5F8F3CB4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc-I./RTE/Device/MKL25Z128xxx4-I./RTE/_MMA_Project-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_-o ./objects/i2c.o -MD)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BD06A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED65234)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D093C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0968)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5F8F3CB4)
+I (inc\i2c.h)(0x5F8F3CB4)
+F (.\src\mma8451.c)(0x5F8F3CB4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc-I./RTE/Device/MKL25Z128xxx4-I./RTE/_MMA_Project-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_-o ./objects/mma8451.o -MD)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BD06A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED65234)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D093C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0968)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5F8F3CB4)
+I (inc\mma8451.h)(0x5F8F3CB4)
+I (inc\i2c.h)(0x5F8F3CB4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5ED65234)
+F (.\src\LED.c)(0x5F8F3CB4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc-I./RTE/Device/MKL25Z128xxx4-I./RTE/_MMA_Project-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_-o ./objects/led.o -MD)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BD06A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED65234)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D093C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0968)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5F8F3CB4)
+I (inc\LED.h)(0x5F8F3CB4)
+F (.\src\PeriodicTimer.c)(0x5F8F3CB4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc-I./RTE/Device/MKL25Z128xxx4-I./RTE/_MMA_Project-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_-o ./objects/periodictimer.o -MD)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BD06A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED65234)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D093C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0968)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5F8F3CB4)
+I (inc\PeriodicTimer.h)(0x5F8F3CB4)
+F (.\src\UARTCom.c)(0x5F8F3CB4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc-I./RTE/Device/MKL25Z128xxx4-I./RTE/_MMA_Project-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_-o ./objects/uartcom.o -MD)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BD06A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED65234)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D093C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0968)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5F8F3CB4)
+I (inc\UARTCom.h)(0x5F8F3CB4)
+F (.\src\Recorder.c)(0x5F8F3CB4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc-I./RTE/Device/MKL25Z128xxx4-I./RTE/_MMA_Project-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_-o ./objects/recorder.o -MD)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BD06A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED65234)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D093C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0968)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5F8F3CB4)
+I (inc\Recorder.h)(0x5F8F3CB4)
+I (inc\i2c.h)(0x5F8F3CB4)
+I (inc\mma8451.h)(0x5F8F3CB4)
+F (.\step_recognition.c)(0x5FE9FEF8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc-I./RTE/Device/MKL25Z128xxx4-I./RTE/_MMA_Project-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_-o ./objects/step_recognition.o -MD)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BD06A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED65234)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D093C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0968)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5F8F3CB4)
+I (step_recognition.h)(0x5FE9FEF6)
+F (.\inc\UARTCom.h)(0x5F8F3CB4)()
+F (.\inc\i2c.h)(0x5F8F3CB4)()
+F (.\inc\mma8451.h)(0x5F8F3CB4)()
+F (.\inc\LED.h)(0x5F8F3CB4)()
+F (.\inc\PeriodicTimer.h)(0x5F8F3CB4)()
+F (.\inc\Recorder.h)(0x5F8F3CB4)()
+F (.\step_recognition.h)(0x5FE9FEF6)()
+F (RTE\Device\MKL25Z128xxx4\startup_MKL25Z4.s)(0x5F8F3CB4)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/MKL25Z128xxx4-I./RTE/_MMA_Project-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"MKL25Z128xxx4 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_mkl25z4.o)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.c)(0x5F8F3CB4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc-I./RTE/Device/MKL25Z128xxx4-I./RTE/_MMA_Project-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IC:/Users/Alexandru/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="531" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_-o ./objects/system_mkl25z4.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED65234)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BD06A)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D093C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D0968)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5F8F3CB4)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5F8F3CB4)()

@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Mihet Alexandru, University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.3.0
+Target DLL:      PEMicro\Pemicro_ArmCortexInterface.dll V1.3.0.0
+Dialog DLL:      TARMCM1.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+C:\Users\Alexandru\Desktop\Project (4)\Project\MMA_Project.uvprojx
+Project File Date:  12/28/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'MMA_Project'
+src/main.c(16): warning: no previous prototype for function 'calculate_noise' [-Wmissing-prototypes]
+double calculate_noise(int x_media, int y_media, int z_media){
+       ^
+src/main.c(16): note: declare 'static' if the function is not intended to be used outside of this translation unit
+double calculate_noise(int x_media, int y_media, int z_media){
+^
+static 
+src/main.c(25): warning: unused variable 'working' [-Wunused-variable]
+        int working = 0;
+            ^
+src/main.c(42): warning: unused variable 'x_mediu' [-Wunused-variable]
+        int x_mediu = 0;
+            ^
+src/main.c(45): warning: unused variable 'pasi' [-Wunused-variable]
+        int pasi = 0;
+            ^
+src/main.c(43): warning: unused variable 'y_mediu' [-Wunused-variable]
+        int y_mediu = 0;
+            ^
+src/main.c(44): warning: unused variable 'z_mediu' [-Wunused-variable]
+        int z_mediu = 0;
+            ^
+src/main.c(138): warning: 'return' will never be executed [-Wunreachable-code-return]
+        return 0;
+               ^
+7 warnings generated.
+compiling main.c...
+linking...
+.\Objects\AsmTimerGPIO.axf: Error: L6200E: Symbol calculate_noise multiply defined (by step_recognition.o and main.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+".\Objects\AsmTimerGPIO.axf" - 1 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: I2C Version: 2.4.0
+   * Component: Custom Version: 1.0.0
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_KLxx_DFP.1.15.0.pack
+                Keil.Kinetis_KLxx_DFP.1.15.0
+                NXP Kinetis KLxx Series Device Support and Examples
+   * Component: Startup Version: 2.5.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\MKL25Z128xxx4
+  .\RTE\_MMA_Project
+  C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\Alexandru\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Driver\Include
+  C:\Users\Alexandru\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS Driver:I2C:2.4.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_I2C.h
+
+   * Component: ARM::CMSIS Driver:I2C:Custom:1.0.0
+      Include file:  CMSIS\Driver\Include\Driver_I2C.h
+      Source file:   CMSIS\Driver\DriverTemplates\Driver_I2C.c
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil::Device:Startup:2.5.0
+      Source file:   Device\Source\ARM\startup_MKL25Z4.s
+      Source file:   Device\Source\system_MKL25Z4.c
+      Include file:  Device\Source\system_MKL25Z4.h
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
